@@ -1,0 +1,60 @@
+pwd /home/...
+find 'potato' * | wc
+
+-------------------------------
+#!/bin/bash
+
+echo "Enter a number"
+
+read N
+
+while [ $N le 1 ]
+do
+	FAC=`expr $N \* ($N-1)`
+	N=`expr $N - 1`
+done
+
+echo "The Factorial of $N is $FAC"
+
+--------------------------------
+chmod u+x factorial.sh
+
+./factorial.sh
+
+--------------------------------
+dd-mon-yyyy
+--------------------------------
+$* $@
+shell env variable: print env
+
+--------------------------------
+delete : it will only delete the particular specified
+truncate: all 
+drop
+
+---------------------
+truncate table tablename; --DDL
+delete from tablename where id=103; --DML
+----------------------------------
+EMPLOYEE_ID	NAME	SALARY
+100	Jennifer	4400
+100	Jennifer	4400
+101	Michael	13000
+101	Michael	13000
+101	Michael	13000
+102	Pat	6000
+102	Pat	6000
+103	Den	11000
+
+
+select distinct * from table_name;
+
+ 
+-------------------------------------------------------
+left outer join		=	4
+right outer join	=	5
+inner join		=	3
+full outer join		=	6
+--------------------------------------------------------
+
+
