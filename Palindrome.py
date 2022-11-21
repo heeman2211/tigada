@@ -10,3 +10,4 @@ def pal(a):
 ms = input("Enter the string to check whether it is Palindrome or not:")
 
 print(pal(ms))
+print("End")
